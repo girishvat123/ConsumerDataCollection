@@ -21,7 +21,7 @@ outputs the metrics data to a single csv file. This is primarily built for runni
 
 2. ```cd ConsumerDataCollection```
 
-3. Run pip install -r requirements.txt
+3. Run ```pip install -r requirements.txt```
 
 4. Run below command:
 
