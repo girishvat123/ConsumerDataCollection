@@ -8,7 +8,7 @@ import sys
 # Figure out the current time of the snapshot
 # Checking if it is append or write operation
 if not (len(sys.argv) == 3):
-        print("Arguments: Specify the OUTPUT CSV FILE"),
+        print("Arguments: Specify the OUTPUT CSV FILE and path to tenant directory"),
         sys.exit(1),
 
 mode=""
