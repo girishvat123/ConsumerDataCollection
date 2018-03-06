@@ -11,7 +11,7 @@ outputs the metrics data to a single csv file. This is primarily built for runni
 2. ```cd ConsumerDataCollection```
 
 3. Run the following command:
-    ```./dist/runnable.exe <nameOfTheOutputFile> /path/to/jsonfilesfolder/```
+    ```./dist/runnable <nameOfTheOutputFile> /path/to/jsonfilesfolder/```
 
 4. You can see the outputfile with the name you mentioned created in your directory. 
 
@@ -21,8 +21,10 @@ outputs the metrics data to a single csv file. This is primarily built for runni
 
 2. ```cd ConsumerDataCollection```
 
-3. Run below command:
+3. Run pip install -r requirements.txt
+
+4. Run below command:
 
    ```python runnable.py <nameOfTheOutputFile> /path/to/jsonfilesfolder/```
 
-4. You can see the outputfile with the name you mentioned created in your directory.    
+5. You can see the outputfile with the name you mentioned created in your directory.    
