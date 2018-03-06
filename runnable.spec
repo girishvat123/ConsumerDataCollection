@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['runnable.py'],
-             pathex=['/home/girish/Downloads/FinalProject'],
+             pathex=['/home/girish/Downloads/ConsumerDataCollection'],
              binaries=[],
              datas=[],
              hiddenimports=[],
