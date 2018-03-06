@@ -3,7 +3,7 @@
 import csv
 import json
 import os
-import datetime
+import time
 import sys
 # Figure out the current time of the snapshot
 # Checking if it is append or write operation
@@ -12,7 +12,7 @@ if not (len(sys.argv) == 3):
         sys.exit(1),
 
 mode=""
-currentTime=datetime.datetime.now().timestamp()
+currentTime=int(round(time.time()*1000))
 opFile=str(sys.argv[1])
 rootPath= str(sys.argv[2])
 jsonFile={}
