@@ -6,7 +6,7 @@ outputs the metrics data to a single csv file. This is primarily built for runni
 ## Steps for running it in your own local machine with the cloned repository
 
 1. Clone the repository:
-  ```git clone git://github.com/girishvat123/NetSkopeTakeHome``` 
+  ```git clone git://github.com/girishvat123/ConsumerDataCollection``` 
 
 2. ```cd ConsumerDataCollection```
 
