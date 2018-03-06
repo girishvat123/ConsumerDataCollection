@@ -1,8 +1,7 @@
 # Consumer Data Collection 
 
 This simple software extracts the data from mutliple `metrics.json` files corresponding to the consumers and 
-outputs the metrics data to a single csv file. This is primarily built for running on **python3**. If you have both versions of python 2 and 3 installed, please change the below commands for **python** to **python3** depending on what is the default python environment.
-
+outputs the metrics data to a single csv file. It can run on both the versions of Python(2 as well as 3)
 ## Steps for running it in your own local machine with the cloned repository(Running the executable)
 
 1. Clone the repository:
